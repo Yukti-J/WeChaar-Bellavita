@@ -5,9 +5,12 @@
     transform: translateY(185px);
     transition: .6s ease-in-out;
 }
-.card_before h2,h4{
-    /* scale: 0.5; */
-    transform: scale(0.5) translateY(100px);
+.card_before h2{
+    transform: scale(0.5) translateY(180px);
+    transition: 0.6s ease-in-out;
+}
+.card_before h4{
+    transform: scale(0.5) translateY(120px);
     transition: 0.6s ease-in-out;
 }
 .card_before{
@@ -22,7 +25,9 @@
 .card_before h2{
     opacity: 0;
     transition: .5s ease-in-out;
-    scale: 1;
+    scale: 1.1;
+    color: #743A61;
+    font-weight: 500;
 }
 .card_before h4{
     width: 250px;
@@ -32,6 +37,7 @@
     opacity: 0;
     scale: 1;
     transition: .4s ease-in-out;
+    
 }
 .card_before:hover .cap>img{
     transform: translateY(50px);
@@ -44,7 +50,14 @@
     transition: 0.8s ease-in-out;
 }
 .card_before:hover h4{
-    transform: translateY(30px);
-    opacity: 1;
+    transform: translateY(34px);
+    opacity: .8;
     transition: 1s ease-in-out;
+}
+
+@media  (max-width: 650px) {
+    .card_before{
+        scale: .6;
+        margin: -80px 0;
+    }
 }

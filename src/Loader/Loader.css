@@ -22,8 +22,11 @@
     80%{
         transform: rotate(360deg);
     }
+    90%{
+        opacity: .7;
+    }
     100%{
-        transform: scale(100);
+        transform: scale(70);
         opacity: 0;
     }
 }

@@ -12,9 +12,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 const LuxuryCategory = () => {
 
   return (
-    <div className='flex flex-col items-center my-10 fadein'>
+    <div className='flex flex-col items-center my-20 fadein'>
       <p className='text-3xl font-against pt-4'>LUXURY CATEGORIES</p>
-      <Carousel className='min-[1050px]:w-[70%] w-[90%] mt-14' autoPlay infiniteLoop showStatus={false} showThumbs={false}>
+      <Carousel className='min-[1050px]:w-[70%] w-[90%] mt-8' autoPlay infiniteLoop showStatus={false} showThumbs={false}>
         <div>
             <img src={Lux1} alt='Luxury1' className='min-[800px]:h-[500px]'/>
         </div>
