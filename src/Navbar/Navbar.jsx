@@ -8,14 +8,14 @@ const Navbar = (props) => {
   return (
     <>
       <div
-        className={`flex justify-between w-[96%] m-auto items-center pt-2  ${props.background}`}
+        className={`flex justify-between w-[96%] m-auto items-center pt-3  ${props.background} border-b-2 border-gray-100 border-opacity-60`}
       >
         <div className="flex items-center w-[15%]">
           <button>
             <img src={Profile} alt="Profile" className="w-8 h-8" />
           </button>
           <button>
-            <img src={Perfume} alt="Pefume" className="w-8 h-8" />
+            <img src={Perfume} alt="Pefume" className="w-8 h-8 ml-2" />
           </button>
         </div>
         <div className="flex flex-col self-center">
@@ -23,7 +23,7 @@ const Navbar = (props) => {
             <img
               src={NavLogo}
               alt="Logo"
-              className="min-[740px]:h-16 h-10 min-[740px]:w-72 min-[510px]:w-64 w-56"
+              className="min-[740px]:h-16 h-10 "
             />
           </button>
         </div>
@@ -35,13 +35,13 @@ const Navbar = (props) => {
         </div>
       </div>
       <div className={`flex justify-center w-[96%] m-auto items-center -mt-3`}>
-        <button>
+        {/* <button>
           <img
             src={NavLogo}
             alt="Logo"
             className={`min-[740px]:h-16 h-10 min-[740px]:w-72 min-[510px]:w-64 w-56 opacity-20 -scale-y-100`}
           />
-        </button>
+        </button> */}
       </div>
     </>
   );

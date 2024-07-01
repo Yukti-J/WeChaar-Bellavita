@@ -26,7 +26,7 @@ const AppDownload = () => {
             <img src={Discount} alt="Cash" className='min-[1140px]:w-12 w-10 h-10 min-[1140px]:h-12 '/>
         </div>
       </div>
-      <div className='max-[640px]:w-10/12 max-[980px]:w-1/2 max-[980px]:mx-auto max-[980px]:my-10 min-[980px]:self-end min-[1140px]:pb-20 min-[980px]:pb-14 min-[1480px]:pr-40 min-[1140px]:pr-24 min-[980px]:pr-10 min-[1350px]:pr-32 min-[1480px]:w-[32%] min-[1140px]:w-[38%] min-[1140px]:w-[32%]'>
+      <div className='max-[640px]:w-10/12 max-[980px]:w-1/2 max-[980px]:mx-auto max-[980px]:my-10 min-[980px]:self-end min-[1140px]:pb-20 min-[980px]:pb-14 min-[1480px]:pr-40 min-[1140px]:pr-24 min-[980px]:pr-10 min-[1350px]:pr-32 min-[1480px]:w-[32%] min-[1140px]:w-[38%] '>
         <div className='flex flex-col bg-bg-blue px-5 py-3 rounded-lg shadow-lg'>
             <div className='min-[1140px]:text-xl text:lg text-white'>
                 Download Now:
