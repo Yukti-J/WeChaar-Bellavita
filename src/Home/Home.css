@@ -30,6 +30,7 @@
 .t1{
     animation: t1reveal 1.5s ease-in-out ;
     animation-delay: 1s;
+    animation-iteration-count: 1;
     animation-fill-mode: backwards;
 }
 @keyframes t1reveal {

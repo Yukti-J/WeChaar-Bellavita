@@ -7,7 +7,6 @@ import Home from './Home/Home'
 import Loader from './Loader/Loader'
 import LuxuryCategory from './LuxuryCategory/LuxuryCategory'
 import NewArrivals from './NewArrivals/NewArrivals'
-import Testimonials from './Testimonials/Testimonials'
 import Why from './Why/Why'
 import "./Fonts/against\ regular.ttf"
 import "./Fonts/against\ regular.otf"
@@ -33,7 +32,6 @@ function App() {
       <LuxuryCategory/>
       <Why/>
       <AppDownload/>
-      <Testimonials/>
       <Footer/>
       </div>
       }

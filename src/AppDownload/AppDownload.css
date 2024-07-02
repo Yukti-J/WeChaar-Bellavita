@@ -5,3 +5,21 @@
     background-position: center;
     background-size: cover;
 }
+
+.perfume{
+    animation: float 4s linear infinite ;
+}
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-3px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(3px);
+    }
+}

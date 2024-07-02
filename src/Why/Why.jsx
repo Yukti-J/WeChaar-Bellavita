@@ -9,7 +9,7 @@ import "./Why.css";
 const Why = () => {
   return (
     <div className="flex flex-col mt-10 mb-10 justify-between">
-      <p className="text-3xl font-against pt-4 mx-auto mb-12 max-[650px]: mb-0 font-semibold text-3xl">WHY BELLAVITA?</p>
+      <p className="text-3xl font-against pt-4 mx-auto mb-12 max-[650px]:mb-0">WHY BELLAVITA?</p>
       <div className="grid min-[1200px]:grid-cols-4 min-[650px]:grid-cols-2 h-full mx-auto mb-8 font-lexend justify-items-center">
         <div className="card_before mx-2 cursor-pointer">
           <div className="cap">

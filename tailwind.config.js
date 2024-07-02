@@ -6,7 +6,7 @@ export default {
       fontFamily: {
         marko: ["Marko One", "serif"],
         lexend: ["Lexend", "sans-serif"],
-        against: ["against", "serif"],
+        against: ["Bona Nova SC", "serif"],
       },
       colors: {
         "bg-blue": "#1B2D48",
