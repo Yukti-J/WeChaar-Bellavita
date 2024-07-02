@@ -3,7 +3,7 @@
 }
 .text>h4{
     font-size: 14px;
-    font-weight: 300px;
+    font-weight: 400px;
     position: absolute;
     text-transform: capitalize;
     top: 58%;
@@ -12,6 +12,7 @@
     animation-iteration-count: no-repeat ;
     opacity: 0;
     animation-fill-mode: backwards;
+    color: #886725;
 }
 @keyframes reveal {
     0%{
