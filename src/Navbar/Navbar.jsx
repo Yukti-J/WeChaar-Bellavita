@@ -12,10 +12,10 @@ const Navbar = (props) => {
       >
         <div className="flex items-center w-[15%]">
           <button>
-            <img src={Profile} alt="Profile" className="w-8 h-8" />
+            <img src={Profile} alt="Profile" className="w-10 h-10 rounded-[50px] px-1 py-1 hover:bg-[#6D074C] max-[640px]:" />
           </button>
           <button>
-            <img src={Perfume} alt="Pefume" className="w-8 h-8 ml-2" />
+            <img src={Perfume} alt="Pefume" className="w-10 h-10 ml-2 rounded-[50px] px-1 py-1 hover:bg-[#6D074C] max-[650px]:hidden" />
           </button>
         </div>
         <div className="flex flex-col self-center">
@@ -27,11 +27,11 @@ const Navbar = (props) => {
             />
           </button>
         </div>
-        <div className="w-[15%]">
+        <div className="w-[15%] flex">
           <input
-            className={`border-2 border-bg-pink shadow-xl rounded-full px-2 py-1 text-sm w-full text-white max-[550px]:hidden ${props.search}`}
+            className={`border-2 px-3 py-1	 placeholder:italic capitalize focus:outline-none border-bg-pink shadow-xl rounded-full px-2 py-1 text-sm w-full text-white max-[650px]:hidden ${props.search}`}
             placeholder="Search..."
-          />
+          /> <img src={Search} alt="" className="cursor-pointer rounded-[50px] px-1 py-1 w-9 h-9 ml-1.5 hover:bg-[#6D074C]" />
         </div>
       </div>
       <div className={`flex justify-center w-[96%] m-auto items-center -mt-3`}>

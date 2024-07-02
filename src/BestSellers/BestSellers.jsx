@@ -3,13 +3,13 @@ import Product2 from "../assets/Product2.png";
 import Product1 from "../assets/Product1.png";
 import Product3 from "../assets/Product3.png";
 import { motion } from "framer-motion"
-
+// I am a comment
 const BestSellers = () => {
   return (
     <>
-      <div className="w-[96%] m-auto shadow-fuchsia-800 shadow-md flex flex-col my-6 fadeanimation">
+      <div className="w-[96%] m-auto shadow-fuchsia-800 shadow-md flex flex-col mt-10 mb-6 fadeanimation">
          {/* <motion.div className="animate-div"  initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale:1 }} /> */}
-        <div className="text-3xl font-against pt-4 mx-auto">BEST SELLERS</div>
+        <div className="text-3xl font-against pt-4 mx-auto font-medium">BESTSELLERS</div>
         <div className=""> 
         <div className="my-8 grid justify-items-center min-[1020px]:grid-cols-3 min-[680px]:grid-cols-2 grid-cols-1 min-[1180px]:w-full min-[1180px]:justify-evenly mx-auto">
           <div className="border-4 border-bg-pink rounded-t-full min-[1180px]:w-[320px] w-[300px] mx-8 mt-4 hover:scale-105"
@@ -18,7 +18,7 @@ const BestSellers = () => {
               <img
                 src={Product2}
                 alt="Product2"
-                className="h-[280px]"
+                className="h-[200px] mt-[60px] mb-[20px]"
               />
             </div>
             <div className="font-lexend text-xl pt-2 border-t-4 border-bg-pink">

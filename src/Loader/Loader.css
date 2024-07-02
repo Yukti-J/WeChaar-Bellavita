@@ -1,6 +1,36 @@
 .loader{
     animation: rotate 3s linear 1;
 }
+.text>h4{
+    font-size: 14px;
+    font-weight: 400px;
+    position: absolute;
+    text-transform: capitalize;
+    top: 58%;
+    left: 43.5%;
+    animation: reveal 2.1s ease-in-out;
+    animation-iteration-count: no-repeat ;
+    opacity: 0;
+    animation-fill-mode: backwards;
+    color: #886725;
+}
+@keyframes reveal {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: .8;
+    }
+    80%{
+        opacity: .8;
+    }
+    100%{
+        opacity: 0;
+    }
+    /* 100%{
+        opacity: 0;
+    } */
+}
 
 @keyframes rotate {
     0%{
@@ -22,8 +52,18 @@
     80%{
         transform: rotate(360deg);
     }
+    90%{
+        opacity: .7;
+    }
     100%{
-        transform: scale(100);
+        transform: scale(70);
         opacity: 0;
+    }
+}
+@media (max-width: 640px) {
+    .text>h4{
+        position: absolute;
+        top: 60%;
+        left: 20%;
     }
 }
