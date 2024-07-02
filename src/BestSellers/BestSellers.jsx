@@ -3,7 +3,7 @@ import Product2 from "../assets/Product2.png";
 import Product1 from "../assets/Product1.png";
 import Product3 from "../assets/Product3.png";
 import { motion } from "framer-motion"
-
+// I am a comment
 const BestSellers = () => {
   return (
     <>
