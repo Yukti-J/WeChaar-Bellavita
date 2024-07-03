@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         <div className='flex min-[580px]:flex-row flex-col text-white'>
             <div className="flex flex-col max-[510px]:items-center min-[730px]:mx-8 mx-2 mt-4">
-                <p className='font-lexend text-2xl my-5' onClick={() => setShow(show === "hidden" ? "" : "hidden")}>Company</p>
+                <p className='font-lexend text-2xl my-5 cursor-pointer' onClick={() => setShow(show === "hidden" ? "block" : "hidden")}>Company</p>
                 <ul className={`font-lexend max-[510px]:text-center text-lg pl-2 cursor-pointer max-[510px]:${show}`}>
                     <li>Shop</li>
                     <li>About</li>
@@ -31,7 +31,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="flex flex-col max-[510px]:items-center min-[730px]:mx-8 mx-2 mt-4">
-                <p className='font-lexend text-2xl my-5' onClick={() => setShow2(show2 === "hidden" ? "" : "hidden")}>Social</p>
+                <p className='font-lexend text-2xl my-5 cursor-pointer' onClick={() => setShow2(show2 === "hidden" ? "block" : "hidden")}>Social</p>
                 <ul className={`font-lexend max-[510px]:text-center text-lg pl-2 cursor-pointer max-[510px]:${show2}`}>
                     <li>TikTok</li>
                     <li>Instagram</li>
@@ -40,7 +40,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="flex flex-col max-[510px]:items-center min-[730px]:mx-8 mx-2 mt-4">
-                <p className='font-lexend text-2xl my-5' onClick={() => setShow3(show3 === "hidden" ? "" : "hidden")}>Theme</p>
+                <p className='font-lexend text-2xl my-5 cursor-pointer  ' onClick={() => setShow3(show3 === "hidden" ? "" : "hidden")}>Theme</p>
                 <ul className={`font-lexend max-[510px]:text-center text-lg pl-2 cursor-pointer max-[510px]:${show3}`}>
                     <li>Style Guide</li>
                     <li>Changelog</li>
