@@ -5,7 +5,7 @@ const Loader = () => {
   return (
     <div className='w-screen h-screen flex flex-col justify-center items-center text-center'>
       <img src={LoaderLogo} alt="loader" className='w-28 h-28 loader rounded-full'/>
-      <h4 className='mt-6 font-lexend text-yellow-700'>Unveil the essence that defines you.</h4>
+      <h4 className='mt-6 font-lexend text-yellow-700 tagline'>Unveil the essence that defines you.</h4>
     </div>
   )
 }
